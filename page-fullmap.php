@@ -22,6 +22,8 @@ get_header();
 
 	echo do_shortcode('[leaflet-map height="100vh" lat='.$map_center['markers'][0]['lat'].' lng='.$map_center['markers'][0]['lng'].' zoom="' . get_field('zoom', 'option') . '" zoomcontrol !scrollwheel doubleClickZoom dragging ' . $fitBounds . ' !boxZoom !attribution '.get_field('tiles', 'option').']');
 
+	echo do_shortcode('[leaflet-geojson src=https://elegradvault.b-cdn.net/geojson/ors-export-linestring.geojson color=#dd9933 weight=2]{popup-text}[/leaflet-geojson]');
+
 	if ( get_field('airports', 'option') ) {
 		echo do_shortcode('[leaflet-geojson src=https://elegradvault.b-cdn.net/geojson/map-airports.geojson]{popup-text}[/leaflet-geojson]');
 	}

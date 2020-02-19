@@ -8,7 +8,7 @@ add_action( 'wp_head', function () { ?>
 	font-family: 'Roboto', sans-serif;
 }
 
-/*
+
 #poststuff #post-body.columns-2 {
 	margin-right: 0;
 	display: grid;
@@ -33,7 +33,7 @@ add_action( 'wp_head', function () { ?>
 	width: 100%;
 	grid-area: 2 / 1 / 3 / 2;
 }
-*/
+
 
 table.entry-detail-view td {
 	padding: 10px;

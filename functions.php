@@ -200,7 +200,6 @@ if ( class_exists( 'WooCommerce' ) ) {
 
 require get_template_directory() . '/inc/acf.php';
 require get_template_directory() . '/inc/gravity.php';
-require get_template_directory() . '/inc/gravity-styles.php';
 
 
 add_action('leaflet_map_loaded', 'fs_leaflet_loaded');

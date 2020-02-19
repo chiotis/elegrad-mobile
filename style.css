@@ -10379,3 +10379,38 @@ body.page.page-template-page-webcams .appContent {
 	background-color: var(--primary);
 	color: #FFF;
 }
+
+/* GRAVITY VIEW */
+/* DataTables */
+select {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+table.dataTable thead th, table.dataTable thead td,
+table.dataTable tfoot th, table.dataTable tfoot td{
+  padding: 5px 8px;
+  font-size: 12px;
+  border: solid #eee;
+  border-width: 1px 0;
+  vertical-align: middle;
+}
+table tbody>tr>td {
+  border: solid #eee;
+  border-width: 1px 0;
+}
+/* Row HEaders */
+table.dataTable.display tbody tr.odd>.sorting_1, table.dataTable.order-column.stripe tbody tr.odd>.sorting_1 {
+  background-color: #edf5f9;
+  font-weight: bold;
+}
+table.dataTable.display tbody tr.even>.sorting_1, table.dataTable.order-column.stripe tbody tr.even>.sorting_1 {
+  background: #f9f9f9;
+  font-weight: bold;
+}
+/* Hover State */
+table tbody>tr:nth-child(odd)>td, table tbody>tr:nth-child(odd)>th {
+    background-color: #f8fdff;
+}
+table tbody tr:hover>td, table tbody tr:hover>th {
+    background-color: #def2fd;
+}

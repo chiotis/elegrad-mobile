@@ -27,26 +27,6 @@ acf_add_local_field_group(array(
 			'maxlength' => '',
 		),
 		array(
-			'key' => 'field_5e2485a4427c3',
-			'label' => 'Alert Content',
-			'name' => 'alert_content',
-			'type' => 'text',
-			'instructions' => '',
-			'required' => 0,
-			'conditional_logic' => 0,
-			'wrapper' => array(
-				'width' => '',
-				'class' => '',
-				'id' => '',
-			),
-			'hide_admin' => 0,
-			'default_value' => '',
-			'placeholder' => '',
-			'prepend' => '',
-			'append' => '',
-			'maxlength' => '',
-		),
-		array(
 			'key' => 'field_5e2485ab427c4',
 			'label' => 'Alert Type',
 			'name' => 'alert_type',
@@ -96,7 +76,7 @@ acf_add_local_field_group(array(
 	'acfe_form' => 0,
 	'acfe_meta' => '',
 	'acfe_note' => '',
-	'modified' => 1579781038,
+	'modified' => 1582126473,
 ));
 
 endif;

@@ -8,7 +8,7 @@ function cptui_register_my_cpts() {
 	$labels = [
 		"name" => __( "Alerts", "elegrad-mobile" ),
 		"singular_name" => __( "Alert", "elegrad-mobile" ),
-		"menu_name" => __( "Alerts", "elegrad-mobile" ),
+		"menu_name" => __( "My Alerts", "elegrad-mobile" ),
 		"all_items" => __( "All Alerts", "elegrad-mobile" ),
 		"add_new" => __( "Add new", "elegrad-mobile" ),
 		"add_new_item" => __( "Add new Alert", "elegrad-mobile" ),

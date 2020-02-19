@@ -4,7 +4,7 @@ Theme URI: https://elegrad.com
 Author: Chris Chiotis
 Author URI: https://elegrad.com
 Description: A mobile only WordPress theme
-Version: 1.1.02
+Version: 1.01.02
 License: GNU General Public License v2 or later
 License URI: LICENSE
 Text Domain: elegrad-mobile
@@ -10321,7 +10321,7 @@ body.page.page-template-page-webcams .appContent {
 .alignfull img {
 	width: 100vw;
 }
-.wp-block-image.alignfull img {
+.wp-block-image .alignfull img {
 	width: auto;
 }
 .flickity-button {

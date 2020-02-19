@@ -1,0 +1,71 @@
+{
+    "key": "group_5e135433ea9ea",
+    "title": "Location",
+    "fields": [
+        {
+            "center_lat": 38.3933389,
+            "center_lng": 24.6203613,
+            "zoom": 6,
+            "key": "field_5e135439eeed8",
+            "label": "Point Location",
+            "name": "point_location",
+            "type": "open_street_map",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "raw",
+            "layers": [
+                "OpenStreetMap"
+            ],
+            "allow_map_layers": 0,
+            "height": 500,
+            "max_markers": 1
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ],
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "alert"
+            }
+        ],
+        [
+            {
+                "param": "af_form",
+                "operator": "==",
+                "value": "form_5e2484f4c34f0"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "acfe_display_title": "",
+    "acfe_autosync": [
+        "php",
+        "json"
+    ],
+    "acfe_permissions": "",
+    "acfe_form": 0,
+    "acfe_meta": "",
+    "acfe_note": "",
+    "modified": 1579781062
+}

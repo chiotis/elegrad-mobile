@@ -1,0 +1,170 @@
+{
+  "products": [
+    {
+      "id": "spider-plant",
+      "name": "Spider Plant",
+      "categories": "Air Purifying, Desk, Low Maintenance, Window Sill",
+      "price": 10,
+      "description": "The resilient spider plant is the perfect choice for newbies. It will quietly battle toxins including carbon monoxide and xylene, a solvent used in the printing and rubber industries.",
+      "image": "/img/products/spider-plant.jpg",
+      "isToxic": true,
+      "height": 120,
+      "watering": "Once a week",
+      "position": "Direct sunlight"
+    },
+    {
+      "id": "weeping-fig",
+      "name": "Weeping Fig",
+      "categories": "Air Purifying",
+      "price": 30,
+      "description": "A popular house plant with air purifying qualities",
+      "image": "/img/products/weeping-fig.jpg",
+      "isToxic": false,
+      "height": 80,
+      "watering": "Twice a week",
+      "position": "Avoid direct sunlight"
+    },
+    {
+      "id": "chinese-evergreen",
+      "name": "Chinese Evergreen",
+      "categories": "Low Maintenance",
+      "price": 50,
+      "description": "This tropical plant is proven to be an effective cleanser of formaldehyde and benzene, found in detergents and cosmetics.",
+      "image": "/img/products/chinese.jpg",
+      "isToxic": true,
+      "height": 40,
+      "watering": "Once a week",
+      "position": "Windows"
+    },
+    {
+      "id": "bonsai",
+      "name": "Bonsai",
+      "categories": "Low Maintenance",
+      "price": 20,
+      "description": "Bonsai is a Japanese art form using cultivation techniques to produce small trees in pots. ",
+      "image": "/img/products/bonsai.jpg",
+      "isToxic": false,
+      "height": 20
+    },
+    {
+      "id": "grey-pot-9",
+      "name": "Grey Pot, 9cm",
+      "categories": "Pots",
+      "price": 2,
+      "description": "Looks like a concrete pot, but is made from recycled plastic – meaning it’s lightweight and has a lighter impact on the environment. Ideal for indoor use.",
+      "image": "/img/products/pot-9.jpg",
+      "isToxic": false,
+      "height": 9,
+      "watering": "N/A",
+      "position": "Anywhere"
+    },
+    {
+      "id": "grey-pot-15",
+      "name": "Grey Pot, 15cm",
+      "categories": "Pots",
+      "price": 4,
+      "description": "Looks like a concrete pot, but is made from recycled plastic – meaning it’s lightweight and has a lighter impact on the environment. Ideal for indoor use.",
+      "image": "/img/products/pot-15.jpg",
+      "isToxic": false,
+      "height": 15,
+      "watering": "N/A",
+      "position": "Anywhere"
+    },
+    {
+      "id": "grey-pot-32",
+      "name": "Grey Pot, 32cm",
+      "categories": "Pots",
+      "price": 10,
+      "description": "Looks like a concrete pot, but is made from recycled plastic – meaning it’s lightweight and has a lighter impact on the environment. Ideal for indoor use.",
+      "image": "/img/products/pot-32.jpg",
+      "isToxic": false,
+      "height": 32,
+      "watering": "N/A",
+      "position": "Anywhere"
+    },
+    {
+      "id": "white-pot-9",
+      "name": "White Pot, 9cm",
+      "categories": "Pots",
+      "price": 4,
+      "description": "Give your plants and home a facelift by adding new pots to your plants. Enhance a style or season, or have fun with a new splash of colour in the room. ",
+      "image": "/img/products/pot-white-9.jpg",
+      "isToxic": false,
+      "height": 9,
+      "watering": "N/A",
+      "position": "Anywhere"
+    },
+    {
+      "id": "dragon-tree",
+      "name": "Dragon Tree",
+      "categories": "Low Maintenance, Air Purifying",
+      "price": 10,
+      "description": "The Madagascar Dragon Tree is most definitely one of the easiest indoor plants to grow and maintain. Dracaena Marginata trees can grow up to 6ft high indoors. The Dracaena marginata is one of the plants on NASA's air filtering plants list (part of the NASA clean air study) that reduces benzene, formaldehyde, xylene and toluene, within the air.",
+      "image": "/img/products/dragon-tree.jpg",
+      "isToxic": true,
+      "height": 120,
+      "watering": "Once a week",
+      "position": "Keep away from drafts"
+    },
+    {
+      "id": "golden-pothos",
+      "name": "Golden Pothos",
+      "categories": "Low Maintenance",
+      "price": 5,
+      "description": "Pothos isn't exactly the flashiest plant in the world: there's no flowering and you're choosing between a couple different variegated varieties, but the trailing stems look pretty on a shelf or from a hanging basket, and it's easy to take care of.",
+      "image": "/img/products/golden-pothos.jpg",
+      "isToxic": true,
+      "height": 20,
+      "watering": "Once a week",
+      "position": "Anywhere"
+    },
+    {
+      "id": "succulent",
+      "name": "Succulent",
+      "categories": "Low Maintenance, Desk, Window Sill",
+      "price": 10,
+      "description": "Native to dry areas all over the world. Easy to care for. Great for your desk!",
+      "image": "/img/products/succulent.jpg",
+      "isToxic": true,
+      "height": 30,
+      "watering": "Twice a month",
+      "position": "Anywhere"
+    },
+    {
+      "id": "citrus",
+      "name": "Citrus",
+      "categories": "Window Sill, Desk",
+      "price": 15,
+      "description": "Add a splash of colour to your space with this citrus plant.",
+      "image": "/img/products/citrus.jpg",
+      "isToxic": false,
+      "height": 30,
+      "watering": "Twice a week",
+      "position": "Direct sunlight"
+    },
+    {
+      "id": "areca-palm",
+      "name": "Areca Palm",
+      "categories": "Air Purifying",
+      "price": 30,
+      "description": "Areca palm is one of the most widely used palms for bright interiors. It features feathery, arching fronds, each with up to 100 leaflets. These big, bold plants command attention. ",
+      "image": "/img/products/areca-palm.jpg",
+      "isToxic": true,
+      "height": 120,
+      "watering": "Twice a week",
+      "position": "Anywhere"
+    },
+    {
+      "id": "dracaena-fragrans",
+      "name": "Aracaena Fragrans",
+      "categories": "Air Purifying, Low Maintenance",
+      "price": 100,
+      "description": "The best selling favorite, the \"corn\" plant is called so thanks to the character of it's glossy leaf and texture. The variegated yellow and green color provides will provide a critical color boost to drab spaces with low amounts of sunlight. A hearty plant that is great for beginner plant owners.",
+      "image": "/img/products/dracaena-fragrans.jpg",
+      "isToxic": true,
+      "height": 200,
+      "watering": "Once a week",
+      "position": "Anywhere"
+    }
+  ]
+}

@@ -4,7 +4,7 @@ Theme URI: https://elegrad.com
 Author: Chris Chiotis
 Author URI: https://elegrad.com
 Description: A mobile only WordPress theme
-Version: 1.0.94
+Version: 1.0.95
 License: GNU General Public License v2 or later
 License URI: LICENSE
 Text Domain: elegrad-mobile
@@ -10414,12 +10414,15 @@ table.dataTable.display tbody tr.even>.sorting_1, table.dataTable.order-column.s
   background: #f9f9f9;
   font-weight: bold;
 }
-/* Hover State */
+
+table tbody>tr>td, table tbody>tr>th,
 table tbody>tr:nth-child(odd)>td, table tbody>tr:nth-child(odd)>th {
-	background-color: #f8fdff;
+	background-color: #fff;
+	border: solid #dedede;
 }
+/* Hover State */
 table tbody tr:hover>td, table tbody tr:hover>th {
-	background-color: #def2fd;
+	background-color: #fcffe9;
 }
 
 /* Gravity View Datatables */

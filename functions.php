@@ -199,6 +199,8 @@ if ( class_exists( 'WooCommerce' ) ) {
 }
 
 require get_template_directory() . '/inc/acf.php';
+require get_template_directory() . '/inc/gravity.php';
+//require get_template_directory() . '/inc/gravity-styles.php';
 
 
 add_action('leaflet_map_loaded', 'fs_leaflet_loaded');
@@ -214,42 +216,16 @@ add_filter( 'facetwp_is_main_query', function( $bool, $query ) {
     return ( true === $query->get( 'facetwp' ) ) ? true : $bool;
 }, 10, 2 );
 
-function filter_submit_button_attributes( $attributes, $form, $args ) {
-    $attributes['class'] .= ' btn btn-success btn-block btn-lg mr-1 mb-1';
-    
-    return $attributes;
-}
-add_filter( 'af/form/button_attributes', 'filter_submit_button_attributes', 10, 3 );
-add_filter( 'af/form/button_attributes/id=FORM_ID', 'filter_submit_button_attributes', 10, 3 );
-add_filter( 'af/form/button_attributes/key=FORM_KEY', 'filter_submit_button_attributes', 10, 3 );
 
-// move the Gravity Forms scripts to the footer
-add_filter('gform_init_scripts_footer', 'init_scripts');
-function init_scripts() {
-    return true;
+// Add user role as class in body tag
+function jetflow_add_role_to_body($classes) {
+	if( is_user_logged_in() ) {
+		global $current_user;
+		$user_role = $current_user->roles;
+		return array_merge( $classes, array( $user_role[0] ) );
+	} else {
+		$classes[] = 'loggedout';
+		return $classes;
+	}
 }
-add_filter( 'gform_submit_button', 'form_submit_button', 10, 2 );
-function form_submit_button( $button, $form ) {
-    return "<button class='btn btn-primary btn-block shadowed btn-lg mb-2 gform_button' id='gform_submit_button_{$form['id']}'><span>".__('Ολοκλήρωση και Αποστολή', 'elegrad-mobile')."</span></button>";
-}
-add_filter( 'gform_next_button', 'form_next_button', 10, 2 );
-function form_next_button( $button, $form ) {
-    return "<button class='btn btn-primary btn-block btn-lg mb-2 gform_next_button' id='gform_next_button_{$form['id']}'><span>".__('Επόμενη Σελίδα', 'elegrad-mobile')."</span></button>";
-}
-add_filter( 'gform_previous_button', 'form_previous_button', 10, 2 );
-function form_previous_button( $button, $form ) {
-    return "<button class='btn btn-text-secondary shadowed btn-block gform_previous_button' id='gform_previous_button_{$form['id']}'><span>".__('Προηγούμενη Σελίδα', 'elegrad-mobile')."</span></button>";
-}
-
-add_filter( 'gform_validation_message', function ( $message, $form ) {
-    if ( gf_upgrade()->get_submissions_block() ) {
-        return $message;
-    }
-    $message = "<div class='alert alert-danger mb-1' role='alert'>" . __('Παρακαλώ συμπληρώστε τα υποχρεωτικά πεδία', 'elegrad-mobile') . "</div>";
-    foreach ( $form['fields'] as $field ) {
-        if ( $field->failed_validation ) {
-            $message .= sprintf( '<div class="chip chip-outline chip-danger ml-05 mb-05"><span class="chip-label">%s - %s</span></div>', GFCommon::get_label( $field ), $field->validation_message );
-        }
-    } 
-    return $message;
-}, 10, 2 );
+add_filter('body_class','jetflow_add_role_to_body');

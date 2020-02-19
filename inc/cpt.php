@@ -62,7 +62,7 @@ function cptui_register_my_cpts() {
 		"query_var" => true,
 		"menu_position" => 5,
 		"menu_icon" => "dashicons-warning",
-		"supports" => [ "title", "editor" ],
+		"supports" => [ "title" ],
 		"taxonomies" => [ "alert_type" ],
 	];
 

@@ -27,7 +27,7 @@
 
 				<div class="appFooter mt-0">
 					<div class="footer-title">Copyright &copy; <?php echo bloginfo( 'name' ) . date(' Y') ?>.<br>All Rights Reserved.</div>
-					<?php echo __('Ψηφιακή Εφαρμογή Διαχείρισης Πολιτιστικής Διαδρομής', 'elegrad-mobile'); ?>
+					<?php echo bloginfo('description'); ?>
 					<br>
 					<?php
 						$my_theme = wp_get_theme();

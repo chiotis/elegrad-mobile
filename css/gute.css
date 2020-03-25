@@ -1,0 +1,28 @@
+/* 
+	Block Styles
+*/
+.appContent p,
+[class^="wp-block"] {
+	margin-bottom: 1.5rem;
+}
+.appContent .alignwide {
+
+}
+.appContent .alignfull {
+	margin-left  : calc( -100vw / 2 + 100% / 2 );
+	margin-right : calc( -100vw / 2 + 100% / 2 );
+	width : 100vw;
+	max-width    : 100vw;
+}
+.wp-block-image .aligncenter img, 
+.wp-block-image .alignleft img, 
+.wp-block-image .alignright img, 
+.wp-block-image .is-resized img {
+	width: auto;
+}
+.wp-block-image .alignfull img {
+	width: 100vw;
+}
+.flickity-button {
+	background: rgba(0, 0, 0, 0.43);
+}

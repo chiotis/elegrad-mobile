@@ -7571,6 +7571,14 @@ a {
 	border-bottom: 1px solid #dfe4e7; 
 	box-shadow: 0 0 10px rgba(0,0,0,0.6);
 }
+	body.admin-bar .appHeader {
+		top: 32px;
+	}
+	@media screen and (max-width: 782px) {
+		body.admin-bar .appHeader {
+			top: 46px;
+		}
+	}
 	.appHeader.no-border {
 		border: 0;
 		box-shadow: none; 
@@ -10264,7 +10272,9 @@ body.page.page-template-page-webcams .appContent {
 	right: 20px;
 	box-shadow: 2px 2px 10px #333;
 }
-
+	body.admin-bar .btn-filter {
+		top:120px;
+	}
 /* Action Sheet */
 .action-sheet .modal-content {
 	max-width: 728px;

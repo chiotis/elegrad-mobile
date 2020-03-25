@@ -10190,6 +10190,7 @@ body.admin-bar #sidebarPanel {
 	max-width: 65%;
   display: block;
 }
+body.single-gravityview .appContent,
 body.page-template-page-fullmap .appContent,
 body.page-template-page-mapbox .appContent,
 body.page-template-page-no-padding .appContent {
@@ -10201,10 +10202,12 @@ body.single .appContent {
 	max-width: 960px;
 	margin: 0 auto;
 }
+body.single-gravityview .appContent,
 body.page.page-template-page-fullmap #appCapsule,
 body.page.page-template-page-mapbox #appCapsule {
 	padding: 0;
 }
+body.single.single-gravityview .appContent,
 body.page.page-template-page-fullwidth .appContent,
 body.page.page-template-page-airports .appContent,
 body.page.page-template-page-fullmap .appContent,

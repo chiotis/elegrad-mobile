@@ -4,7 +4,7 @@ if( function_exists('acf_add_local_field_group') ):
 
 acf_add_local_field_group(array(
 	'key' => 'group_5e2719ea8c493',
-	'title' => 'General Settings',
+	'title' => 'Alerts & Webcams',
 	'fields' => array(
 		array(
 			'key' => 'field_5e271a02f25c2',
@@ -272,7 +272,7 @@ acf_add_local_field_group(array(
 	'acfe_form' => 0,
 	'acfe_meta' => '',
 	'acfe_note' => '',
-	'modified' => 1580058068,
+	'modified' => 1585135725,
 ));
 
 endif;

@@ -7,6 +7,25 @@ acf_add_local_field_group(array(
 	'title' => 'App Settings',
 	'fields' => array(
 		array(
+			'key' => 'field_5e7b3fee3f127',
+			'label' => 'Icons Help',
+			'name' => '',
+			'type' => 'message',
+			'instructions' => '',
+			'required' => 0,
+			'conditional_logic' => 0,
+			'wrapper' => array(
+				'width' => '',
+				'class' => '',
+				'id' => '',
+			),
+			'hide_admin' => 0,
+			'acfe_permissions' => '',
+			'message' => 'Find the Icons Library <a href="https://ionicons.com/v4/" target="_blank">here</a>',
+			'new_lines' => 'wpautop',
+			'esc_html' => 0,
+		),
+		array(
 			'key' => 'field_5e2b19b814db6',
 			'label' => 'App Content Maximum Width',
 			'name' => 'app_content_maxwidth',
@@ -157,7 +176,7 @@ acf_add_local_field_group(array(
 	'acfe_form' => 0,
 	'acfe_meta' => '',
 	'acfe_note' => '',
-	'modified' => 1579883054,
+	'modified' => 1585135676,
 ));
 
 endif;

@@ -64,7 +64,9 @@ select {
   display: inline-block;
   margin-bottom: 20px;
 }
-
+table.dataTable {
+	width:100%;
+}
 table.dataTable thead th, table.dataTable thead td,
 table.dataTable tfoot th, table.dataTable tfoot td{
   padding: 5px 8px;
